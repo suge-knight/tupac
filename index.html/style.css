@@ -1,0 +1,97 @@
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  color: rgb(154, 34, 34);
+  background-color: wheat;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+nav:before{
+  content:'';
+  display: block;
+  height: 70px;
+  width: 100%;
+  background: rgb(154, 34, 34);
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 70px;
+  color: wheat;
+}
+ul li{
+  float: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul li a{
+  color: wheat;
+  display: block;
+  height: 100px;
+  padding: 0 130px;
+  text-transform: uppercase;
+  text-decoration:salmon;
+  line-height: 20px;
+}
+ul li a:hover{
+  background-color:wheat;
+  color: rgb(154, 34, 34);
+}
+h1 {
+  color:rgb(154, 34, 34);
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 42%;
+}
+form{
+  border-style:double;
+  color:rgb(154, 34, 34);
+  width: 46%;
+  height:auto;
+}
+#name{
+  background-color:wheat;
+  color: rgb(154, 34, 34)t;
+}
+#email{
+  background-color:wheat;
+  color: rgb(154, 34, 34);
+}
+#message{
+  background-color:wheat;
+  color: rgb(154, 34, 34);
+}
+footer{
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+#submit{
+  background-color: rgb(154, 34, 34);
+  color:wheat;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#submit:hover{
+  background-color:rgb(154, 34, 34);
+  color: wheat;
+}
+.round{
+  border-radius: 150px;
+  border: 5px solid rgb(154, 34, 34);
+  box-shadow: 0 0 10px #666;
+}
+.foot{
+  color:rgb(154, 34, 34);
+}
